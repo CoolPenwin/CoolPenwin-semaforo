@@ -1,12 +1,24 @@
+.Semaforo{
+    background-color: black;
+padding: 10px;
+display: inline-block;}
+.luz{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.rojo{
+    background-color: red;
+}
+.naranja{
+    background-color: rgb(255, 217, 0);
+}
+.verde{
+    background-color: rgb(0, 255, 21);
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.brilli{
+    box-shadow: 0px 0px 30px 20px #9fa5e4;
+}
