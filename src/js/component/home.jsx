@@ -1,18 +1,22 @@
 import React from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import Semaforo from "./semaforo";
 
 //create your first component
 const Home = () => {
-	return (
-		<div className="Semaforo">
-			<div className="luz rojo brilli"></div>
-			<div className="luz naranja"></div>
-			<div className="luz verde"></div>
-
-		</div>
-	);
+  return (
+    <>
+      <div class="d-flex justify-content-between m-3">
+        <Semaforo />
+        <Semaforo />
+      </div>
+      <div class="d-flex justify-content-between m-3">
+        <p>Peaton</p>
+        <p>Peaton</p>
+      </div>
+    </>
+  );
 };
 
 export default Home;
