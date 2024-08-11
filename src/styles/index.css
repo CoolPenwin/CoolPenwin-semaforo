@@ -41,6 +41,11 @@ display: inline-block;}
   border-radius: 50%;
   background-color: grey;
 }
+.luz img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para que cubra todo el `div` */
+}
 
 #rojo.active {
   background-color: red;

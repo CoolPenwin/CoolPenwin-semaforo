@@ -1,7 +1,7 @@
 import React from "react";
 
 //include images into your bundle
-import Semaforo from "./semaforo";
+import { Semaforo, Peatons } from "./semaforo";
 
 //create your first component
 const Home = () => {
@@ -12,8 +12,8 @@ const Home = () => {
         <Semaforo />
       </div>
       <div class="d-flex justify-content-between m-3">
-        <p>Peaton</p>
-        <p>Peaton</p>
+        <Peatons />
+        <Peatons />
       </div>
     </>
   );
