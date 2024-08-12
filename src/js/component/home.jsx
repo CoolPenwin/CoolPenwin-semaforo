@@ -2,6 +2,7 @@ import React from "react";
 
 //include images into your bundle
 import { Semaforo, Peatons } from "./semaforo";
+import Footer from "./footer";
 
 //create your first component
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         <Peatons />
         <Peatons />
       </div>
+      <Footer/>
     </>
   );
 };
